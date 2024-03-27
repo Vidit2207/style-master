@@ -1,0 +1,28 @@
+{
+  "name": "your_package_name",
+  "version": "0.0.0",
+  "description": "your_package_description",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "test": "npm run build && node --experimental-vm-modules node_modules/mocha/bin/mocha --experimental-vm-modules ./tests/index.test.mjs",
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your_package_repo"
+  },
+  "homepage": "your_package_repo_readme.md",
+  "keywords": [],
+  "author": "Vidit Modi",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^10.3.0",
+    "typescript": "^5.4.3"
+  }
+}
