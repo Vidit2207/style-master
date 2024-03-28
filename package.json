@@ -1,7 +1,7 @@
 {
-  "name": "your_package_name",
-  "version": "0.0.0",
-  "description": "your_package_description",
+  "name": "style-master",
+  "version": "0.0.9",
+  "description": "A library to make working with css much easier using javascript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -14,9 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "your_package_repo"
+    "url": "https://github.com/Vidit2207/style-master.git"
   },
-  "homepage": "your_package_repo_readme.md",
+  "homepage": "https://github.com/Vidit2207/style-master.git/readme.md",
   "keywords": [],
   "author": "Vidit Modi",
   "license": "Apache-2.0",
